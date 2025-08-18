@@ -1,0 +1,19 @@
+{
+  "name": "simple-calculator-cicd",
+  "version": "1.0.0",
+  "description": "Proyecto simple para practicar CI/CD con GitHub Actions",
+  "main": "src/calculator.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/ test/",
+    "start": "node src/calculator.js",
+    "build": "echo 'Build completed successfully'"
+  },
+  "keywords": ["calculator", "cicd", "github-actions"],
+  "author": "Tu nombre",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}
