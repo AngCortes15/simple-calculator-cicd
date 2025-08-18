@@ -7,7 +7,7 @@
     "test": "jest",
     "lint": "eslint src/ test/",
     "start": "node src/calculator.js",
-    "build": "echo 'Build completed successfully'"
+    "build": "mkdir -p dist && cp -r src/* dist/ && cp package.json dist/"
   },
   "keywords": ["calculator", "cicd", "github-actions"],
   "author": "Tu nombre",
